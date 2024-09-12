@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Revenda Veículos</title>
+</head>
+<body>
+    <!-- Esta aplicação está definida com um valor de entrada de 50% porcento de entrada e apkica o juros conforme preenchimento do  usuário que calcula o juros composto  -->
+    <!-- Valor Financiado é o valor que será parcelado (no seu caso, 50% do preço do veículo).
+Taxa é a taxa de juros mensal (em decimal, por exemplo, 5% é 0.05).
+n é o número de parcelas (12 meses no seu caso). -->
+    <h1>Revenda de Veículos</h1>
+    <form action="">
+        <p>Veículo:
+            <input type="text" id="_veiculo" required placeholder="Digite o nome do Veículo:">
+        </p>
+        <p>Preço:
+            <input type="text" id="_preco" required placeholder="Digite o valor do Veículo:">
+        </p>
+        <p>Taxa Juros(%) ao Mês:
+            <input type="text" id="_juros" placeholder="Use o ponto ao definir o juros ex: 1.4" >
+        </p>
+        <p>Qtdade de Parcelas:
+            <input type="text" id="_parcelas" placeholder="Digite a qtdade de parcelas:">
+        </p>
+        <input type="submit" value="Ver Promoção">
+        <input type="button" value="Limpar Campos" id="limparCampos">
+
+    </form>
+    <h3 id="outResp1"></h3>
+    <h3 id="outResp2"></h3>
+    <h3 id="outResp3"></h3>
+    <h3 id="outResp4"></h3>
+    <h3 id="outResp5"></h3>
+    <script src="js/ex2_3.js"></script>
+
+</body>
+</html>

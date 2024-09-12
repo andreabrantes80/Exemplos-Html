@@ -1,0 +1,58 @@
+/* Define o estilo global para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #104547;
+    max-width: 700px;
+    margin: 0 auto; /* Centraliza o conteúdo na página */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao redor */
+    border-radius: 8px;
+}
+
+/* Estilo para o título principal */
+h1 {
+    text-align: center;
+    color: #104547;
+}
+
+/* Estilo para os parágrafos dentro do form */
+form p {
+    margin-bottom: 15px;
+    color: #104547;
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #104547;
+    border-radius: 4px;
+    color: #104547;
+    background-color: #fff;
+}
+
+/* Estilo dos botões */
+input[type="submit"],
+input[type="button"] {
+    background-color: #104547;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #727072;
+}
+
+/* Estilo para os elementos de resposta */
+h3 {
+    margin-top: 15px;
+    color: #727072;
+}
